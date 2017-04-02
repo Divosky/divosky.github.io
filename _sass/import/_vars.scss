@@ -1,0 +1,18 @@
+$base-font-family: "Lato", Helvetica, Arial, sans-serif !default;
+$base-font-size:   16px !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+
+$text-color:       rgba(255, 255, 255, .87) !default;
+$bg-color: #232323 !default;
+$accent-color:      chocolate !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+$breakpoints: (
+    xs: 320px,  // extra small
+    s:  768px,  // small
+    m:  1440px, // middle
+    l:  1920px  // large
+);

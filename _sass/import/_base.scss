@@ -1,0 +1,56 @@
+body,
+html {
+  height: 100%;
+  background: $bg-color;
+  color: $text-color;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+blockquote {
+  border-left: 4px solid $grey-color-light;
+  padding-left: 20px;
+  color: $grey-color;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.wrapper {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px;
+}
+
+.icon > svg {
+  display: inline-block;
+  vertical-align: middle;
+
+  path {
+    fill: $grey-color;
+  }
+}
+
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
